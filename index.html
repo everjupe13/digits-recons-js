@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="mb-40">
+      <h1 class="text-42 font-bold">Бакиров Илья</h1>
+      <h3 class="text-18 font-medium">гр P4208</h3>
+    </div>
+
+    <div class="flex gap-40 flex-wrap justify-center">
+      <div class="min-w-[50%] flex flex-col justify-center">
+        <div>
+          <canvas class="shadow-lg mb-30 rounded-10 border mx-auto border-gray-200" id="canvas" width="320" height="320"></canvas>
+          <button id="clear" class="font-bold text-16">Очистить холст</button>
+        </div>
+      </div>
+
+      <div>
+        <p class="text-16 font-medium mb-10">Наиболее вероятное число:</p>
+        <div id="output" class="flex gap-x-5">
+          <p
+            class="p0 text-18 font-bold w-30 h-30 flex items-center justify-center rounded-full bg-gray-700 opacity-10 transition-all text-white leading-none">
+            0</p>
+          <p
+            class="p1 text-18 font-bold w-30 h-30 flex items-center justify-center rounded-full bg-gray-700 opacity-10 transition-all text-white leading-none">
+            1</p>
+          <p
+            class="p2 text-18 font-bold w-30 h-30 flex items-center justify-center rounded-full bg-gray-700 opacity-10 transition-all text-white leading-none">
+            2</p>
+          <p
+            class="p3 text-18 font-bold w-30 h-30 flex items-center justify-center rounded-full bg-gray-700 opacity-10 transition-all text-white leading-none">
+            3</p>
+          <p
+            class="p4 text-18 font-bold w-30 h-30 flex items-center justify-center rounded-full bg-gray-700 opacity-10 transition-all text-white leading-none">
+            4</p>
+          <p
+            class="p5 text-18 font-bold w-30 h-30 flex items-center justify-center rounded-full bg-gray-700 opacity-10 transition-all text-white leading-none">
+            5</p>
+          <p
+            class="p6 text-18 font-bold w-30 h-30 flex items-center justify-center rounded-full bg-gray-700 opacity-10 transition-all text-white leading-none">
+            6</p>
+          <p
+            class="p7 text-18 font-bold w-30 h-30 flex items-center justify-center rounded-full bg-gray-700 opacity-10 transition-all text-white leading-none">
+            7</p>
+          <p
+            class="p8 text-18 font-bold w-30 h-30 flex items-center justify-center rounded-full bg-gray-700 opacity-10 transition-all text-white leading-none">
+            8</p>
+          <p
+            class="p9 text-18 font-bold w-30 h-30 flex items-center justify-center rounded-full bg-gray-700 opacity-10 transition-all text-white leading-none">
+            9</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
